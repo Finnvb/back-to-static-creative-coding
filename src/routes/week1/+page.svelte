@@ -1,23 +1,21 @@
 <script>
 	import Menu from '$lib/components/HamburgerMenu.svelte';
-	let close;
-	let openImg;
+
 	let text;
+	let open = false;
 	let active = false;
-	export let open = false;
-	export let closeMenu = () => {
-		// close.style.display = 'none';
-		// openImg.style.display = 'flex';
-		// text.style.visibility = 'hidden';
-		open = true;
-		active = true;
-	};
-	export let openMenu = () => {
-		// openImg.style.display = 'none';
-		// close.style.display = 'flex';
-		// text.style.visibility = 'visible';
-		open = false;
-        active = false
+
+	const toggleMenu = function () {
+		active = !active;
+		if (active) {
+			active = true;
+			open = true;
+			text.style.visibility = 'hidden';
+		} else {
+			active = false;
+			open = false;
+			text.style.visibility = 'visible';
+		}
 	};
 </script>
 
@@ -28,22 +26,15 @@
 
 	<h1>Stories of the <br /> ILOJO BAR</h1>
 
-	<div class="container" on:click={closeMenu} >
-		<span class:active/>
-		<span class:active/>
-		<span class:active/>
-	</div>
-	<!-- <div class="container">
-			<img bind:this={close} on:click={closeMenu} src="close.svg" alt="closeImg" />
-			<img
-				class="close"
-				bind:this={openImg}
-				on:click={openMenu}
-				src="hamburgerMenu.svg"
-				alt="hamburgerImg"
-			/>
-		</div> -->
-	<!-- <p bind:this={text}>Menu</p> -->
+	<section>
+		<div class="container" on:click={toggleMenu}>
+			<span class:active />
+			<span class:active />
+			<span class:active />
+		</div>
+
+		<p bind:this={text}>Menu</p>
+	</section>
 </header>
 
 {#if open}
@@ -60,6 +51,17 @@
 		padding: 1rem;
 	}
 
+	section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section p {
+		margin-top: 0.5rem;
+		font-size: 1rem;
+	}
 	h1 {
 		font-size: 1.5rem;
 		text-align: center;
@@ -95,7 +97,7 @@
 		height: 40px;
 		cursor: pointer;
 		transition: 1s;
-        z-index: 990;
+		z-index: 990;
 	}
 
 	span:nth-child(1) {
@@ -105,9 +107,7 @@
 	}
 
 	span:nth-child(1).active {
-		/* transform: translateY(18px); */
 		transform: translateY(18px) rotate(45deg);
-		/* transform-origin: center; */
 	}
 
 	.container span:nth-child(2) {
@@ -120,25 +120,23 @@
 	}
 
 	span:nth-child(2).active {
-		display: none;
-		transform: translateX(20px);
+		transform: rotateX(90deg);
+		transform-origin: center;
+		opacity: 0;
 	}
 
 	.container span:nth-child(3) {
 		position: absolute;
 		bottom: 0;
-		/* transform: translateY(-18px); */
 		transition: 1s;
 	}
 
 	.container span:nth-child(3).active {
-		/* transform: translateY(-18px); */
 		transform: translateY(-18px) rotate(135deg);
 		transform-origin: center;
 	}
 
 	span {
-		/* position: absolute; */
 		width: 100%;
 		height: 5px;
 		background-color: #ffffff;

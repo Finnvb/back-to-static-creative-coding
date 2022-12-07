@@ -8,15 +8,15 @@
    
    <nav>
    
-        <li><a href="/a-spanish-migrant-looking-for-greener-pastures" class:active={$page.url.pathname === '/a-spanish-migrant-looking-for-greener-pastures'}>A Spanish Migrant</a></li> 
-        <li><a href="/the-returnees-who-changed-lagos" class:active={$page.url.pathname === '/the-returnees-who-changed-lagos'}>The returnees</a></li>
-        <li><a href="/a-vip-from-abeokuta-visits-fernandez-house" class:active={$page.url.pathname === '/a-vip-from-abeokuta-visits-fernandez-house'}>A VIP</a></li>
-       <li><a href="/the-macaulay-connection" class:active={$page.url.pathname === '/the-macaulay-connection'}>The Macaulay connection</a></li> 
-       <li><a href="/a-family-house-to-the-olaiyas" class:active={$page.url.pathname === '/a-family-house-to-the-olaiyas'}>A family house</a></li> 
-       <li><a href="/memories-of-slave-trade" class:active={$page.url.pathname === '/memories-of-slave-trade'}>Slave trade</a></li> 
-       <li><a href="/botched-dreams-for-ilojo-bar" class:active={$page.url.pathname === '/botched-dreams-for-ilojo-bar'}>Botched dreams</a></li> 
-       <li><a href="/the-angels-story" class:active={$page.url.pathname === '/the-angels-story'}>The Angel's Story</a></li> 
-       <li><a href="/illegal-demolition" class:active={$page.url.pathname === '/illegal-demolition'}>Illegal demolition</a></li> 
+        <li><a href="/#" class:active={$page.url.pathname === '/a-spanish-migrant-looking-for-greener-pastures'}>A Spanish Migrant</a></li> 
+        <li><a href="/#" class:active={$page.url.pathname === '/the-returnees-who-changed-lagos'}>The returnees</a></li>
+        <li><a href="/#" class:active={$page.url.pathname === '/a-vip-from-abeokuta-visits-fernandez-house'}>A VIP</a></li>
+       <li><a href="/#" class:active={$page.url.pathname === '/the-macaulay-connection'}>The Macaulay connection</a></li> 
+       <li><a href="/#" class:active={$page.url.pathname === '/a-family-house-to-the-olaiyas'}>A family house</a></li> 
+       <li><a href="/#" class:active={$page.url.pathname === '/memories-of-slave-trade'}>Slave trade</a></li> 
+       <li><a href="/#" class:active={$page.url.pathname === '/botched-dreams-for-ilojo-bar'}>Botched dreams</a></li> 
+       <li><a href="/#" class:active={$page.url.pathname === '/the-angels-story'}>The Angel's Story</a></li> 
+       <li><a href="/#" class:active={$page.url.pathname === '/illegal-demolition'}>Illegal demolition</a></li> 
  
 
    </nav>

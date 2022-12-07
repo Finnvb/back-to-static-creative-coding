@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --dark: #101010;
+    --light: #F3F3F3;
+    --grey: #c7c7c7;
+    --red: #8c0500;
+    --redLight: #da2a2a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url("/background.jpg");
+    height: 100vh;
+    background-repeat: repeat;
+    background-position: center; 
+   background-size: cover;
+   overflow-x: hidden;
+    
+}

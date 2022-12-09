@@ -42,6 +42,10 @@
 {/if}
 
 <style>
+
+	:root{
+		--animation-duration: 0.4s ;
+	}
 	header {
 		display: flex;
 		justify-content: space-between;
@@ -104,7 +108,7 @@
 	span:nth-child(1) {
 		position: absolute;
 		top: 0;
-		transition: 0.5s;
+		transition: var(--animation-duration);
 	}
 
 	span:nth-child(1).active {
@@ -118,7 +122,7 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 
-		transition: 0.5s;
+		transition: var(--animation-duration);
 	}
 
 	span:nth-child(2).active {
@@ -130,7 +134,7 @@
 	.container span:nth-child(3) {
 		position: absolute;
 		bottom: 0;
-		transition: 0.5s;
+		transition: var(--animation-duration);
 	}
 
 	.container span:nth-child(3).active {

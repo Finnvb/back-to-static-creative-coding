@@ -1,5 +1,5 @@
 <script>
-	import Menu from '$lib/components/HamburgerMenu.svelte';
+	import Menu from '$lib/components/Hamburgermenu.svelte';
 
 	let text;
 	let open = false;

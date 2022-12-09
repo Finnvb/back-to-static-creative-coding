@@ -67,7 +67,7 @@
    }
    li{
        list-style: none;
-       margin: 0.5rem 0;
+       margin: 1.2rem 0;
        transition: 300ms;
        text-align: center;
    }

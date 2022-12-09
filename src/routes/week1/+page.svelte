@@ -96,7 +96,6 @@
 		width: 50px;
 		height: 40px;
 		cursor: pointer;
-		transition: 1s;
 		z-index: 990;
 	}
 
@@ -105,11 +104,12 @@
 	span:nth-child(1) {
 		position: absolute;
 		top: 0;
-		transition: 1s;
+		transition: 0.5s;
 	}
 
 	span:nth-child(1).active {
 		transform: translateY(18px) rotate(45deg);
+		transform-origin: center;
 	}
 
 	.container span:nth-child(2) {
@@ -118,7 +118,7 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 
-		transition: 1s;
+		transition: 0.5s;
 	}
 
 	span:nth-child(2).active {
@@ -130,7 +130,7 @@
 	.container span:nth-child(3) {
 		position: absolute;
 		bottom: 0;
-		transition: 1s;
+		transition: 0.5s;
 	}
 
 	.container span:nth-child(3).active {

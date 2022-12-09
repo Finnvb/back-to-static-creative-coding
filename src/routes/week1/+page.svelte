@@ -100,6 +100,8 @@
 		z-index: 990;
 	}
 
+
+
 	span:nth-child(1) {
 		position: absolute;
 		top: 0;

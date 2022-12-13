@@ -1,6 +1,6 @@
 # Creative Coding
 
-In deze deeltaak heb ik in drie weken drie verschillende creatieve oplossingen gemaakt. In de wiki heb ik mijn werkproces gedocumenteerd.
+In deze deeltaak heb ik in drie weken drie verschillende creatieve oplossingen gemaakt. In de [wiki](https://github.com/Finnvb/back-to-static-creative-coding/wiki) heb ik mijn werkproces gedocumenteerd.
 
 ## Week 1 - Hamburgermenu animatie
 

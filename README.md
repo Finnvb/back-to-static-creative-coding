@@ -1,10 +1,10 @@
 # Creative Coding
 
-In deze deeltaak heb ik in drie weken drie verschillende creatieve oplossingen gemaakt.
+In deze deeltaak heb ik in drie weken drie verschillende creatieve oplossingen gemaakt. In de wiki heb ik mijn werkproces gedocumenteerd.
 
 ## Week 1 - Hamburgermenu animatie
 
-Ik heb een animatie gegeven aan de hamburgermenu voor de Ilojo Bar zodra je erop klikt. Dit heb ik gemaakt in Sveltekit met CSS en JS.
+Ik heb een hamburgermenu animatie gemaakt voor de Ilojo Bar.
 
 ### Schets
 Een schets van hoe de animatie eruit komt te zien.

@@ -12,7 +12,8 @@ Een schets van hoe de animatie eruit komt te zien.
 ![20221212_105307](https://user-images.githubusercontent.com/26089533/207380526-28c5c95e-6c09-41ab-8564-962c82254370.jpg)
 
 
-###Eindproduct
+### Eindproduct
+
 ![afbeelding](https://user-images.githubusercontent.com/26089533/207382429-b0142e0e-824d-4d33-be6e-ce52c81cfdea.png)
 
 

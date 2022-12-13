@@ -1,38 +1,21 @@
-# create-svelte
+# Creative Coding
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+In deze deeltaak heb ik in drie weken drie verschillende creatieve oplossingen gemaakt.
 
-## Creating a project
+## Week 1 - Hamburgermenu animatie
 
-If you're seeing this, you've probably already done this step. Congrats!
+Ik heb een animatie gegeven aan de hamburgermenu voor de Ilojo Bar zodra je erop klikt. Dit heb ik gemaakt in Sveltekit met CSS en JS.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Schets
+Een schets van hoe de animatie eruit komt te zien.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+![20221212_105307](https://user-images.githubusercontent.com/26089533/207380526-28c5c95e-6c09-41ab-8564-962c82254370.jpg)
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+###Eindproduct
+![afbeelding](https://user-images.githubusercontent.com/26089533/207382429-b0142e0e-824d-4d33-be6e-ce52c81cfdea.png)
 
-```bash
-npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Week 2 - Awful experimental escapist menu
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+In week 2 heeft Justus een generator gemaakt die verschillende woorden achter elkaar genereerd. Aan de hand van deze generator kregen we een idee om uit te werken in de 2de week.

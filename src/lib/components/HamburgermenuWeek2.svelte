@@ -15,14 +15,14 @@
 				class:active={$page.url.pathname === '/a-spanish-migrant-looking-for-greener-pastures'}
 				>A Spanish Migrant</a
 			>
-			<div></div>
+			<!-- <div></div> -->
 			<!-- <img src="img1.jpg" alt="spanish-migrant"> -->
 		</li>
 		<li transition:fly={{ x: 1200, duration: 700, delay: 250 }}>
 			<a href="/#" class:active={$page.url.pathname === '/the-returnees-who-changed-lagos'}
 				>The returnees</a
 			>
-			<div class="img2"></div>
+			<!-- <div class="img2"></div> -->
 
 		</li>
 		<li transition:fly={{ x: 1200, duration: 700, delay: 300 }}>
@@ -30,38 +30,38 @@
 				href="/#"
 				class:active={$page.url.pathname === '/a-vip-from-abeokuta-visits-fernandez-house'}>A VIP</a
 			>
-			<div class="img3"></div>
+			<!-- <div class="img3"></div> -->
 		</li>
 		<li transition:fly={{ x: 1200, duration: 700, delay: 350 }}>
 			<a href="/#" class:active={$page.url.pathname === '/the-macaulay-connection'}
 				>The Macaulay connection</a
 			>
-			<div class="img4"></div>
+			<!-- <div class="img4"></div> -->
 		</li>
 		<li transition:fly={{ x: 1200, duration: 700, delay: 400 }}>
 			<a href="/#" class:active={$page.url.pathname === '/a-family-house-to-the-olaiyas'}
 				>A family house</a
 			>
-			<div class="img5"></div>
+			<!-- <div class="img5"></div> -->
 		</li>
 		<li transition:fly={{ x: 1200, duration: 700, delay: 450 }}>
 			<a href="/#" class:active={$page.url.pathname === '/memories-of-slave-trade'}>Slave trade</a>
-			<div class="img6"></div>
+			<!-- <div class="img6"></div> -->
 		</li>
 		<li transition:fly={{ x: 1200, duration: 700, delay: 500 }}>
 			<a href="/#" class:active={$page.url.pathname === '/botched-dreams-for-ilojo-bar'}
 				>Botched dreams</a
 			>
-			<div class="img7"></div>
+			<!-- <div class="img7"></div> -->
 		</li>
 		<li transition:fly={{ x: 1200, duration: 700, delay: 550 }}>
 			<a href="/#" class:active={$page.url.pathname === '/the-angels-story'}>The Angel's Story</a>
-			<div class="img8"></div>
+			<!-- <div class="img8"></div> -->
 		</li>
 		<li transition:fly={{ x: 1200, duration: 700, delay: 600 }}>
 			<a href="/#" class:active={$page.url.pathname === '/illegal-demolition'}>Illegal demolition</a
 			>
-			<div class="img9"></div>
+			<!-- <div class="img9"></div> -->
 		</li>
 
 	</nav>

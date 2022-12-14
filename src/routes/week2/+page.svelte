@@ -1,5 +1,5 @@
 <script>
-	import Menu from '$lib/components/HamburgermenuWeek2.svelte';
+	import MenuWeek2 from '$lib/components/HamburgermenuWeek2.svelte';
 
 	let text;
 	let open = false;
@@ -42,7 +42,7 @@
 </header>
 
 {#if open}
-	<Menu width='100vw' />
+	<MenuWeek2 width='100vw' />
 {/if}
 
 

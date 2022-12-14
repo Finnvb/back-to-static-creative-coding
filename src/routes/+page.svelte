@@ -8,7 +8,7 @@
 
 	<section>
 		<a href="/week1">Week 1</a>
-		<a href="/">Week 2</a>
+		<a href="/week2">Week 2</a>
 		<a href="/">Week 3</a>
 	</section>
 </main>

@@ -1,10 +1,12 @@
 <script>
     import { fly } from 'svelte/transition';
     import {page} from '$app/stores';
+
+   export let width;
 </script>
 
 
-<section transition:fly={{ x:1000, duration: 700 }}>
+<section transition:fly={{ x:1000, duration: 700 }} style="width: {width};">
    
    <nav>
    

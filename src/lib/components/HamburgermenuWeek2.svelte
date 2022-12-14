@@ -3,13 +3,13 @@
 	import { page } from '$app/stores';
 
 	export let width;
-    // export let visible;
+
 </script>
 
 <section transition:fly={{ x: 1000, duration: 700 }} style="width: {width};">
 	<nav>
 		
-		<li onmouseover="console.log('gfgg')" transition:fly={{ x: 1200, duration: 700, delay: 200 }}>
+		<li transition:fly={{ x: 1200, duration: 700, delay: 200 }}>
 			<a
 				href="/#"
 				class:active={$page.url.pathname === '/a-spanish-migrant-looking-for-greener-pastures'}

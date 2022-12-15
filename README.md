@@ -20,3 +20,8 @@ Een schets van hoe de animatie eruit komt te zien.
 ## Week 2 - Awful experimental escapist menu
 
 In week 2 heeft Justus een generator gemaakt die verschillende woorden achter elkaar genereerd. Aan de hand van deze generator kregen we een idee om uit te werken in de 2de week.
+
+##Eindproduct
+
+![afbeelding](https://user-images.githubusercontent.com/26089533/207863541-ce0e718b-28d4-4b2f-9e1b-6df4e00601c6.png)
+

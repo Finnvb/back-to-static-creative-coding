@@ -19,7 +19,10 @@ Een schets van hoe de animatie eruit komt te zien.
 
 ## Week 2 - Awful experimental escapist menu
 
-In week 2 heeft Justus een generator gemaakt die verschillende woorden achter elkaar genereerd. Aan de hand van deze generator kregen we een idee om uit te werken in de 2de week.
+In week 2 heeft Justus een generator gemaakt die verschillende woorden achter elkaar genereerd. Aan de hand van deze generator kregen we een idee om uit te werken in de 2de week. Ik moest een experimental escapist menu maken. Escapism is een design thema waarbij je de gebruiker probeert mee te slepen in een fantasierijke wereld. Zoals bijvoorbeeld dit: ![afbeelding](https://user-images.githubusercontent.com/26089533/207865214-671e8b3c-2397-4024-90f9-43b2047470ef.png)
+
+
+
 
 ## Eindproduct
 

@@ -6,6 +6,7 @@
 
 </script>
 
+
 <section transition:fly={{ x: 1000, duration: 700 }} style="width: {width};">
 	<nav>
 		
@@ -76,7 +77,6 @@
 		position: relative;
 		background-color: var(--red);
 		background-image: url('./bg1.png');
-		opacity: 10%;
 		height: 100vh;
 		background-repeat: repeat;
 		background-position: bottom;
@@ -86,11 +86,10 @@
 		width: 30vw;
 		height: 100vh;
 		color: #ffffff;
-		opacity: 100;
 		z-index: 100;
 		position: fixed;
+	
 	}
-
 
 	a {
 		text-decoration: none;
@@ -128,9 +127,16 @@
 		background-repeat: repeat;
 		background-position: bottom;
 		background-size: cover;
-		transition: all 0.5s ease-in-out;
-		transform:translateY(0);
+		transition: all 0.4s ease-in-out;
+		transform:translateX(-20px);
 		opacity: 0%;
+	}
+
+	nav li:hover div{
+	visibility: visible;
+	opacity: 100%;
+	transform: translateX(0px);
+		
 	}
 
 	/* nav li div:last-of-type{
@@ -170,11 +176,7 @@
 		background-image: url('./img9.jpg');
 	}
 
-	nav li:hover div{
-	visibility: visible;
-	opacity: 100%;
-		
-	}
+
 	li {
 		list-style: none;
 		transition: 300ms;
@@ -189,6 +191,11 @@
 		position: relative;
 		z-index: 999;
        
+	}
+
+	li:hover{
+		border: 1px solid var(--grey);
+		background-color: var(--redLight);
 	}
 
    

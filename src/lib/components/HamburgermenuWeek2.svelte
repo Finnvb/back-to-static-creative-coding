@@ -76,7 +76,7 @@
 		align-items: center;
 		position: relative;
 		background-color: var(--red);
-		background-image: url('./bg1.png');
+		background-image: url('/bg1.png');
 		height: 100vh;
 		background-repeat: repeat;
 		background-position: bottom;

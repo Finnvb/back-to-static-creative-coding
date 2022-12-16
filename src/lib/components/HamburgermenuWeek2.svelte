@@ -123,7 +123,7 @@
 		top: 100%;
 		width: 20vw;
 		height: 100vh;
-		background-image: url('./img1.jpg');
+		background-image: url('/img1.jpg');
 		background-repeat: repeat;
 		background-position: bottom;
 		background-size: cover;
@@ -144,36 +144,36 @@
 	} */
 
 	.img2{
-		background-image: url('./img2.jpg');
+		background-image: url('/img2.jpg');
 
 	}
 
 	.img3{
-		background-image: url('./img3.jpg');
+		background-image: url('/img3.jpg');
 	}
 
 	.img4{
-		background-image: url('./img4.jpg');
+		background-image: url('/img4.jpg');
 	}
 
 	.img5{
-		background-image: url('./img5.jpg');
+		background-image: url('/img5.jpg');
 	}
 
 	.img6{
-		background-image: url('./img6.jpg');
+		background-image: url('/img6.jpg');
 	}
 
 	.img7{
-		background-image: url('./img7.jpg');
+		background-image: url('/img7.jpg');
 	}
 
 	.img8{
-		background-image: url('./img8.jpg');
+		background-image: url('/img8.jpg');
 	}
 
 	.img9{
-		background-image: url('./img9.jpg');
+		background-image: url('/img9.jpg');
 	}
 
 

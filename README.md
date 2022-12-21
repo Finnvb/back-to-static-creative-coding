@@ -28,3 +28,15 @@ In week 2 heeft Justus een generator gemaakt die verschillende woorden achter el
 
 ![afbeelding](https://user-images.githubusercontent.com/26089533/207863541-ce0e718b-28d4-4b2f-9e1b-6df4e00601c6.png)
 
+
+## Week 3 - On scroll animation
+
+In week 3 heb ik in de les alle creative coding concept ideeën in een roullete gezet. Bij mij kwam 'on scroll animation' uit de roullete wheel. Zodra je omhoog of omlaag scrolt moet er een animatie te zien zijn. Om dit te realiseren heb ik gebruik gemaakt van Intersection Observer.
+
+
+
+
+## Eindproduct
+
+![afbeelding](https://user-images.githubusercontent.com/26089533/208904046-d44f9580-2a45-435e-bb91-fffb530dc38e.png)
+
